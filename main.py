@@ -2,7 +2,6 @@ import discord
 import os
 from discord.ext import commands, tasks
 from datetime import datetime, time, timedelta
-from myserver import server_on
 
 intents = discord.Intents.default()
 intents.messages = True
