@@ -74,4 +74,5 @@ async def on_reaction_add(reaction, user):
             await message.edit(embed=embed)
 
 # ใส่ Token ของบอทของคุณที่นี่
-bot.run(os.getenv(TOKEN))
+TOKEN = os.getenv('DISCORD_TOKEN')
+bot.run(TOKEN)
